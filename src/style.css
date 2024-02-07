@@ -71,8 +71,8 @@ main {
 }
 
 .weather-app-icon {
-  width: 60px;
-  height: 55px;
+  width: 80px;
+  height: 80px;
   margin-top: 22px;
 }
 
@@ -86,6 +86,19 @@ main {
 .weather-app-unit {
   font-size: 28px;
   margin-top: 6px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  color: black;
+}
+
+.weather-forecast-temperature-max {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
 
 footer {
