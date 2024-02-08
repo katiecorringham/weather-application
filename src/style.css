@@ -70,10 +70,10 @@ main {
   display: flex;
 }
 
-.weather-app-icon {
-  width: 80px;
-  height: 80px;
-  margin-top: 22px;
+.weather-forecast-icon {
+  width: 88px;
+  height: 38px;
+  display: block;
 }
 
 .weather-app-temperature {
@@ -92,14 +92,20 @@ main {
   margin-top: 20px;
   color: black;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
-.weather-forecast-temperature-max {
+.weather-forecast-temperatures {
   opacity: 0.5;
+  display: flex;
+  justify-content: space-around;
 }
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer {
